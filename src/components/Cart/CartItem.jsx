@@ -11,7 +11,7 @@ const CartItem = (props) => {
             <b>{props.product.name}</b>
           <div>
             <span>{props.product.price}tl x</span>
-            <span>{props.product.amount}</span>
+            <span className="cart-item-amount">{props.product.amount}</span>
           </div>
         </div>
         <a href="/" className="cart-item-remove">X</a>
