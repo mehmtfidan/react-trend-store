@@ -16,7 +16,7 @@ const ProductItem = ({ product }) => {
       <p>{description}</p>
       <Rating />
       <div className="product-info">
-        <span className="price">{price}tl</span>
+        <span className="price">{price}₺</span>
       </div>
       <button className="add-to-cart" onClick={() => addItem(product)}>
         Sepete Ekle
