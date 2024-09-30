@@ -1,8 +1,45 @@
-# React + Vite
+# Trend Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+**Trend Store** is a modern e-commerce platform built with React. It features dynamic cart functionality, product display, and various interactive UI components. Key features of the project include:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Cart**: Add, remove, and clear products from the shopping cart.
+- **Hero**: Display promotional banners.
+- **Layout**: Responsive and user-friendly structure.
+- **Products**: Showcase products with interactive elements.
+- **UI Components**: Reusable user interface components.
+- **Offcanvas**: Slide-in view for the shopping cart.
+- **React Portal**: Render components outside the root DOM hierarchy.
+- **Context API**: Global state management for the cart functionality.
+
+## Features
+
+- **Add Products to Cart**: Users can browse and add products to the shopping cart.
+- **Calculate Total Price**: The cart automatically calculates the total price of items.
+- **Remove Products**: Users can remove individual products from the cart.
+- **Clear Cart**: Users can easily clear all items from the cart.
+
+## Technologies Used
+
+- **React**: Frontend framework.
+- **React Portal**: For rendering off-canvas components.
+- **Context API**: To manage the state of the cart across the application.
+- **CSS Modules**: Component-level styling.
+
+src/
+│
+├── components/
+│   ├── Cart/
+│   ├── Hero/
+│   ├── Layout/
+│   ├── Products/
+│   └── UI/
+│
+├── context/
+│   └── CartContext.js
+│
+├── App.jsx
+└── main.jsx
+
+
